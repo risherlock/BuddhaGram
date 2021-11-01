@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/rishi/Desktop/prokura_innovations/servo_slave/servo_slave.sch</source>
+    <date>2019 मे 07 05:05:07 अपराह्न</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>28 oct 2013</date>
+        <source>servo_slave.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>ATMEGA168-P</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm</footprint>
+      <libsource lib="servo_slave-rescue" part="ATMEGA168-P-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526D2E22</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_2</value>
+      <footprint>modFiles:Solar_Connector0.1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="CONN_2-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526D3DA2</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>POT</value>
+      <footprint>modFiles:Skeleton_Preset</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="POT-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526D3DC1</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>TIP122</value>
+      <footprint>modFiles:Voltage_Regulator</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="TIP122-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526D2E9B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DA989</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_14</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="CONN_14-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DAC36</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_14</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="CONN_14-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DAC45</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>16MHz</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="CRYSTAL-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DAE1F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22pF</value>
+      <footprint>modFiles:Ceramic_2.54</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DAE38</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <footprint>modFiles:Ceramic_2.54</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DAE47</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1000uF</value>
+      <footprint>modFiles:Capacitor_1000uF</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="CP1-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DB332</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DB36B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1000uF</value>
+      <footprint>modFiles:Capacitor_1000uF</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="CP1-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DC213</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="R-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DD511</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>modFiles:Led_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="LED-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DD51B</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Button_Switch_THT:SW_PUSH-12mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="SW_PUSH-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DE3C1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="R-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DE3D8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100E</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="R-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526DE647</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_2</value>
+      <footprint>modFiles:Solar_Connector0.1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="CONN_2-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526E0107</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DB9_Male</value>
+      <footprint>modFiles:DB9</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB9_Male" description="9-pin male D-SUB connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBCAAAC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MAX13080E</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <libsource lib="servo_slave" part="MAX13080E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC5C0C3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC5CA48</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>TIP122</value>
+      <footprint>modFiles:Voltage_Regulator</footprint>
+      <libsource lib="servo_slave" part="TIP122" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBD2AFE</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>TIP122</value>
+      <footprint>modFiles:Voltage_Regulator</footprint>
+      <libsource lib="servo_slave" part="TIP122" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBD2B82</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>TIP122</value>
+      <footprint>modFiles:Voltage_Regulator</footprint>
+      <libsource lib="servo_slave" part="TIP122" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBD2C0C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>TIP122</value>
+      <footprint>modFiles:Voltage_Regulator</footprint>
+      <libsource lib="servo_slave" part="TIP122" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBDE611</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF4A6E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF4B38</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF4BCE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF4E01</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF504F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF5206</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF539E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF54DB</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Address</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x04" description="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBDD61E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBDD252</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBDD4EE</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBDD75B</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBDD80F</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBE43EC</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBE43F3</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBE43FA</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBE4401</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DB9_Female</value>
+      <footprint>modFiles:DB9</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB9_Female" description="9-pin female D-SUB connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBCAFC9</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFB0D0</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFB156</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>modFiles:Led_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFBB0F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>modFiles:Led_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFBD35</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFC0E9</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFC558</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFEF5B</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_2.54</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFEF62</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFEF69</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBFEF70</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC290F2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>104</value>
+      <footprint>modFiles:Ceramic_5.00</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="servo_slave-rescue" part="C-servo_controller_no485-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC291AE</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_5-G-5.08_1x05_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC5DE84</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_5-G-3.5_1x05_P3.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC61B19</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE</value>
+      <footprint>modFiles:Diode_1N4007</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD17C2C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DIODE</value>
+      <footprint>modFiles:Diode_1N4007</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD190AD</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>DIODE</value>
+      <footprint>modFiles:Diode_1N4007</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD1AD71</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>DIODE</value>
+      <footprint>modFiles:Diode_1N4007</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD1C9CB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB9_Female">
+      <description>9-pin female D-SUB connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB9_Male">
+      <description>9-pin male D-SUB connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper">
+      <description>Jumper, normally closed</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x04">
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave" part="MAX13080E">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX13080E</field>
+      </fields>
+      <pins>
+        <pin num="2" name="RO" type="input"/>
+        <pin num="3" name="RE'" type="input"/>
+        <pin num="4" name="DE" type="input"/>
+        <pin num="5" name="DI" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="9" name="Y" type="input"/>
+        <pin num="10" name="Z" type="input"/>
+        <pin num="11" name="B" type="input"/>
+        <pin num="12" name="A" type="input"/>
+        <pin num="14" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave" part="TIP122">
+      <footprints>
+        <fp>TO220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TIP122</field>
+        <field name="Footprint">TO220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="ATMEGA168-P-servo_controller_no485-rescue">
+      <footprints>
+        <fp>28DIP-ELL600</fp>
+        <fp>28dip600</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATMEGA168-P-servo_controller_no485-rescue</field>
+        <field name="Footprint">DIL28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="2" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="3" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="4" name="(PCINT18/INT0)PD2" type="BiDi"/>
+        <pin num="5" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="6" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="10" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="11" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="12" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="13" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="14" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="15" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="16" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="17" name="(PCINT3/OC2/MOSI)PB3" type="BiDi"/>
+        <pin num="18" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="19" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="BiDi"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT14/SCL/ADC5)PC5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="C-servo_controller_no485-rescue">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="CONN_14-servo_controller_no485-rescue">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_14-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="CONN_2-servo_controller_no485-rescue">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="CP1-servo_controller_no485-rescue">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="CRYSTAL-servo_controller_no485-rescue">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="LED-servo_controller_no485-rescue">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="POT-servo_controller_no485-rescue">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="R-servo_controller_no485-rescue">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="SW_PUSH-servo_controller_no485-rescue">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH-servo_controller_no485-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="servo_slave-rescue" part="TIP122-servo_controller_no485-rescue">
+      <footprints>
+        <fp>TO220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TIP122-servo_controller_no485-rescue</field>
+        <field name="Footprint">TO220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/usr/share/kicad/library/pspice.lib</uri>
+    </library>
+    <library logical="servo_slave">
+      <uri>/home/rishi/Desktop/prokura_innovations/servo_slave/servo_slave.lib</uri>
+    </library>
+    <library logical="servo_slave-rescue">
+      <uri>/home/rishi/Desktop/prokura_innovations/servo_slave/servo_slave-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="C15" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="P2" pin="6"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="R4" pin="1"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="P1" pin="7"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(JP1-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="3" name="/MISO">
+      <node ref="IC1" pin="18"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="4" name="/MOSI">
+      <node ref="P2" pin="3"/>
+      <node ref="IC1" pin="17"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="5" name="/P16">
+      <node ref="IC1" pin="16"/>
+      <node ref="P2" pin="2"/>
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="6" name="/P15">
+      <node ref="IC1" pin="15"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="7" name="/Y">
+      <node ref="J1" pin="9"/>
+      <node ref="J2" pin="6"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="8" name="/Z">
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="9" name="/A">
+      <node ref="J2" pin="9"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="12"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="10" name="/B">
+      <node ref="R17" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="8"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="11" name="Net-(JP2-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(Q3-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Q4-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="15" name="+12V">
+      <node ref="P4" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="16" name="/P11">
+      <node ref="IC1" pin="11"/>
+      <node ref="P1" pin="11"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="17" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="18" name="/P28">
+      <node ref="P2" pin="14"/>
+      <node ref="IC1" pin="28"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="19" name="/27">
+      <node ref="Q3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="20" name="/25">
+      <node ref="Q4" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="21" name="/26">
+      <node ref="D3" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="22" name="/28">
+      <node ref="Q2" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="23" name="+6V">
+      <node ref="Q1" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="24" name="/P3">
+      <node ref="P1" pin="3"/>
+      <node ref="J4" pin="3"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="25" name="/P2">
+      <node ref="J4" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="26" name="/P13">
+      <node ref="IC1" pin="13"/>
+      <node ref="P1" pin="13"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D4-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="28" name="/P14">
+      <node ref="R22" pin="1"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="29" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="IC1" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="IC1" pin="22"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P4" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J4" pin="5"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="R18" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="SW2" pin="6"/>
+      <node ref="P2" pin="8"/>
+      <node ref="P1" pin="8"/>
+      <node ref="SW2" pin="7"/>
+      <node ref="SW2" pin="5"/>
+      <node ref="SW2" pin="8"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="32" name="/P26">
+      <node ref="IC1" pin="26"/>
+      <node ref="R10" pin="2"/>
+      <node ref="P2" pin="12"/>
+    </net>
+    <net code="33" name="/P27">
+      <node ref="IC1" pin="27"/>
+      <node ref="R6" pin="2"/>
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="34" name="/P6">
+      <node ref="P1" pin="6"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="35" name="/P25">
+      <node ref="IC1" pin="25"/>
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="36" name="/P12">
+      <node ref="IC1" pin="12"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="37" name="/P23">
+      <node ref="IC1" pin="23"/>
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="38" name="/P24">
+      <node ref="P2" pin="10"/>
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="39" name="/P21">
+      <node ref="IC1" pin="21"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="40" name="Net-(Q1-Pad1)">
+      <node ref="RV1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="41" name="/RST_IN">
+      <node ref="SW1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="42" name="/P1">
+      <node ref="R5" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="44" name="/P4">
+      <node ref="P1" pin="4"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="46" name="/P5">
+      <node ref="IC1" pin="5"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="48" name="/P9">
+      <node ref="C4" pin="1"/>
+      <node ref="P1" pin="9"/>
+      <node ref="X1" pin="1"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="49" name="/P10">
+      <node ref="IC1" pin="10"/>
+      <node ref="P1" pin="10"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="50" name="/P19">
+      <node ref="IC1" pin="19"/>
+      <node ref="P2" pin="5"/>
+      <node ref="R9" pin="2"/>
+    </net>
+  </nets>
+</export>

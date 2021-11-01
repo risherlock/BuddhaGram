@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name servo_controller_no485-rescue)(type Legacy)(uri ${KIPRJMOD}/servo_controller_no485-rescue.lib)(options "")(descr ""))
+  (lib (name servo_slave-rescue)(type Legacy)(uri ${KIPRJMOD}/servo_slave-rescue.lib)(options "")(descr ""))
+  (lib (name servo_slave)(type Legacy)(uri /home/rishi/Desktop/prokura_innovations/servo_slave/servo_slave.lib)(options "")(descr ""))
+)
